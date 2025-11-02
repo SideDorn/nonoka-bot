@@ -24,13 +24,14 @@ with open("spells.json", 'r', encoding="utf-8") as f:
  #(internal, doesn't affect the actual json) converts the spell name to all lower case
 
 @bot.command()
-async def qs(ctx: commands.Context, *args):
+async def spell(ctx: commands.Context, *args):
     
     spell_name = " ".join(args)
     spell_name = format(spell_name)
-    spell_key = spell_list[spell_name] #gets element that corresponds to the name of the spell
+
     
     try:
+        spell_key = spell_list[spell_name] #gets element that corresponds to the name of the spell
         spell_embed = make_spell_embed(spell_key, spell_name)
         await ctx.send(embed = spell_embed)
     except:
@@ -54,5 +55,8 @@ async def wm(ctx: commands.Context, *args):
 async def test(ctx: commands.Context, *args):
     await ctx.send(args)
 
+@bot.command()
+async def ult(ctx:commands.Context, *args):
+    await ctx.send()
 
 bot.run(token)
