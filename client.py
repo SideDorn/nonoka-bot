@@ -92,8 +92,6 @@ async def test(ctx: commands.Context):
 
     await test_paginator.send(ctx=ctx) 
 
-@bot.command()
-async def ult(ctx:commands.Context, *args):
-    await ctx.send()
+
 
 bot.run(token)

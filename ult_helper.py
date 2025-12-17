@@ -23,7 +23,7 @@ def make_ult_embed(ult):
     embed.add_field(name = "Range", value = ult_range)
     embed.add_field(name = "Casting Time", value = casting_time)
     embed.add_field(name = "Charges/LR", value = charges)
-    embed.add_field(name = "Casting Time", value = casting_time)
+
 
 
 
