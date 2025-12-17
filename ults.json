@@ -1,0 +1,48 @@
+{"Anne Marie Yuu":
+        [
+        {
+            "name": "Combat Low",
+            "level": 4,
+            "description": "3 stacks of atrophy",
+            "range": "30ft",
+            "casting_time": "1 Bonus Action",
+            "charges": 3
+        },
+        {
+            "name": "By Your Side",
+            "level": 8,
+            "description": "dmklhdhd",
+            "range": "30ft",
+            "casting_time": "1 Bonus Action",
+            "charges": 1           
+        },
+        {
+            "name": "Ice Angel",
+            "level": 12,
+            "description": "stream 168 bpm",
+            "range": "30ft",
+            "casting_time": "1 Reaction",
+            "charges": 4
+        },
+        {
+            "name": "",
+            "level": 16,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        },
+        {
+            "name": "",
+            "level": 20,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        }
+    
+
+        ]
+    
+
+}
