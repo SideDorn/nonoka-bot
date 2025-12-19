@@ -3,7 +3,7 @@
         {
             "name": "Combat Low",
             "level": 4,
-            "description": "3 stacks of atrophy",
+            "description": "WIS save or else 3 stacks of atrophy",
             "range": "30ft",
             "casting_time": "1 Bonus Action",
             "charges": 3
@@ -11,7 +11,7 @@
         {
             "name": "By Your Side",
             "level": 8,
-            "description": "dmklhdhd",
+            "description": "Up to 5 PC allies of choice in range (may include self), get a combined 30 shield HP. This overrides all other form of shield.",
             "range": "30ft",
             "casting_time": "1 Bonus Action",
             "charges": 1           
@@ -19,7 +19,7 @@
         {
             "name": "Ice Angel",
             "level": 12,
-            "description": "stream 168 bpm",
+            "description": "When dealing damage to an enemy, convert the rolled damage to shield HP for a willing ally within range (Max 30). This shield overrides other sources of shield HP.",
             "range": "30ft",
             "casting_time": "1 Reaction",
             "charges": 4
@@ -87,7 +87,53 @@
         }
     
 
-        ]
+        ],
     
+"Chiara Aurelius":
+[
+        {
+            "name": "Intemperance",
+            "level": 4,
+            "description": "Spend 30 gold to regain 1 sorcery point as a free action, up to 4 times a turn. Up to the user's maximum amount of sorcery points can be recovered in this way. Gain 10 gold per unspent sorcery point on a long rest.",
+            "range": "Self",
+            "casting_time": "1 Bonus Action",
+            "charges": "Until Broke"
+        },
+        {
+            "name": "Lustrous Veil",
+            "level": 8,
+            "description": "Whenever Armor of Agathys is cast, spend up to 5 sorcery points to enhance the barrier it forms, with each sorcery point spent granting incremental bonuses.\n**(2 sorcery points)** Armor of Agathys' damage reflection now triggers on damage from ranged attacks.\n**(3 sorcery points)** Armor of Agathys' damage reflection now triggers on damage from ranged attacks. Additionally, gain advantage on concentration saves while shielded.\n**(4 sorcery points)** Armor of Agathys' damage reflection now triggers on damage from ranged attacks. Additionally, gain advantage on concentration saves while shielded. While shielded by Armor of Agathys, gain resistance to all forms of damage except true damage.\n**(5 sorcery points)** Armor of Agathys' damage reflection now triggers on damage from ranged attacks. \nAdditionally, gain advantage on concentration saves while shielded. While shielded by Armor of Agathys, gain resistance to all forms of damage except true damage. Damage is further decreased by 1d6 after resistances. Damage dealt by Armor of Agathys ignores resistances.",
+            "range": "Self",
+            "casting_time": "Instant",
+            "charges": 12         
+        },
+        {
+            "name": "Unearned Envy",
+            "level": 12,
+            "description": "Spend 2 sorcery points to imbue the spell with Chiara's teasing and other traces of psychic energy, making it deal **2d6 extra psychic damage** in addition to the spell's base damage on initial hit. When a creature takes damage from this spell on initial hit, they must roll a **WIS save (DC 17)** or be inflicted with 3 stacks of Temptation. On a pass, they gain only 1 stack of Temptation and do not take any of the bonus psychic damage.",
+            "range": "Self",
+            "casting_time": "Instant",
+            "charges": 12
+        },
+        {
+            "name": "",
+            "level": 16,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        },
+        {
+            "name": "",
+            "level": 20,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        }
+    
+
+        ]
+
 
 }
