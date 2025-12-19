@@ -133,7 +133,52 @@
         }
     
 
-        ]
+        ],
 
+"Sienna Sleep":
+[
+        {
+            "name": "Down the Rabbit Hole",
+            "level": 4,
+            "description": "At the start of her turn, Sienna delves into a shadowy pool, becoming invulnerable and invisible to other creatures.\nWhile concealed, Sienna can only use movement, and she can climb on walls and ceilings.\nSienna can choose to emerge from the surface at any time at the start of her next turn.",
+            "range": "Self",
+            "casting_time": "1 Action",
+            "charges": 3
+        },
+        {
+            "name": "It's My Own Invention",
+            "level": 8,
+            "description": "Spawns either Aletheia or Iris as a shadow (or both at the same time) within 30 ft. \nAll shadows are completely identical and linked to Sienna's game statistics.\n*((Basically we all share HP and the same action economy)*\nIf Sienna becomes unconscious, the shadows all disappear. You can dismiss a shadow any time at will.",
+            "range": "Self",
+            "casting_time": "Instant",
+            "charges": 2         
+        },
+        {
+            "name": "Looking Glass Insects",
+            "level": 12,
+            "description": "Spawns an insect with 1 HP that is a copy of Sienna (can appear shapeshifted too).\nChoose a number of creatures that can see the insect. All creatures that can see the insect are completely oblivious to Sienna (and clones).\nThe affected creatures do not notice that their attention is shifted to the insect.\nThe insect only lasts for 1 minute. This can only be used once per short rest.",
+            "range": "Self",
+            "casting_time": "Instant",
+            "charges": 1
+        },
+        {
+            "name": "",
+            "level": 16,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        },
+        {
+            "name": "",
+            "level": 20,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        }
+
+        
+        ]
 
 }
