@@ -320,6 +320,16 @@
         }
 
 
-        ]
-
+        ],
+"Bailey":
+[
+    {
+            "name": "Long-Shot Star",
+            "level": 8,
+            "description": "+1 damage for every 30ft of distance between Bailey and the target (Max 3)",
+            "range": "",
+            "casting_time": "Passive",
+            "charges": "Passive"       
+    }
+]
 }
