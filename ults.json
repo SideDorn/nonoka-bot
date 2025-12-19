@@ -228,6 +228,52 @@
         }
 
         
-        ]
+        ],
+        
+"Asano Tenki":
+[
+        {
+            "name": "TENKICHI Oxygen",
+            "level": 4,
+            "description": "As a bonus action, Tenki ensnares a target within 60 feet (+10 to hit), dealing 3d6+3 bludgeoning damage on hit.\nOn a hit, she can choose to either drag the target to her, or propel herself towards the target.\n- Breathe In~!: Tenki attempts to pull the target into an unoccupied space 5 feet adjacent to her. The target must pass a STR check (DC 17) or be pulled into the adjacent space of Tenki's choice. Large or bigger creatures automatically pass this check.\n- Breathe Out~!: Tenki immediately blinks to an unoccupied space 5 feet adjacent to the target. This movement does not provoke opportunity attacks, and counts as movement towards an enemy for purposes of passives such as Rakish Audacity.\nTenki has 3 charges of this ability. She regains 1 charge on a short rest, and all charges on a long rest.\nAdditionally, she can use this ability out of combat to grapple onto surfaces and objects. Using this ability in this way does not expend any charges.",
+            "range": "60ft",
+            "casting_time": "Bonus Action",
+            "charges": 3
+        },
+        {
+            "name": "TENKICHI Echo",
+            "level": 8,
+            "description": "Tenki conjures a sound gun called Saint's Row, which she can tune to one of the three settings for a single attack (+10 to hit, save DC 17)\n- Freedom Dive: Tenki aims at the target and plays loud, disorienting music, dealing 2d8+DEX thunder damage. If it hits, the target must roll a CON save (DC 17). Upon failure, they have disadvantage on saves and attack rolls for 2 turns. Creatures that are deafened automatically fail this.\n- Glorious Crown: Tenki cranks up the gun's bass and sets it on the ground facing down. 15ft. sphere starting from self range, all creatures must roll CON save (DC 17). On a fail, they take 3d6 bludgeoning damage and are knocked prone. The affected radius becomes difficult terrain. Half damage on success.\n- Heavenly Blast: Tenki aims the gun above her and fires.  20ft. sphere radius starting from self range, all enemies must make a WIS save (DC 17). Enemies that fail get Frightened for 2 turns, and creatures have advantages on attack rolls against them. Do nothing on success. Creatures that are deafened automatically fail this.\nTenki has 2 charges per long rest of this ability.",
+            "range": "",
+            "casting_time": "Instant",
+            "charges": 2         
+        },
+        {
+            "name": "TENKICHI Prism",
+            "level": 12,
+            "description": "[This ability counts as Spell Concentration]. Tenki summons a clone within 30ft of her.\nThis clone has half of Tenki's total HP, and shares initiative and actions with her.\nThe clone is able to proc sneak attack the same way as Tenki does but only dealing half the damage dice (6d6, turned to 3d6).\nThis clone has the ability to self destruct (free action) [DEX save DC 17] dealing 3d10 thunder damage to everyone within 20ft.\nThe damage decreases by 1 die for every 2 turns the clone has lasted starting from the end of Tenki's next turn (minimum of 1d10).\n* Save DC calculation: 8+DEX modifier+Proficiency modifier*",
+            "range": "30ft",
+            "casting_time": "Instant",
+            "charges": 1
+        },
+        {
+            "name": "",
+            "level": 16,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        },
+        {
+            "name": "",
+            "level": 20,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        }
+
+
+        ],
 
 }
