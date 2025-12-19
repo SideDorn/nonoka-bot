@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 from discord.ext import pages
+import re
 import os
 from dotenv import load_dotenv
 import json
@@ -46,15 +47,17 @@ async def spell(ctx: commands.Context, *args):
 async def ults(ctx:commands.Context, *args):
 
     character_name = format(" ".join(args))
-
+    nickname_regex = r"[\w\W]*" + character_name + r"[\w\W]*" #accepts stuff like just "ann" for ann marie yuu, "luna" for lunatique pianoforte, etc.
+    nickname_regex_object = re.compile(nickname_regex)
     ult_pages = []
 
 
-    try:  
+    try:
+        filtered_ult_list = list(filter(nickname_regex_object.match, ult_list))
+        character_name = filtered_ult_list[0]
         character_ults = ult_list[character_name]
         for element in character_ults:          
             if element["name"] != "":
-                print(get_ult_details(element))
                 ult_embed = make_ult_embed(element)
                 ult_page = discord.ext.pages.Page(content = f"Ults for **{character_name}**", embeds = [ult_embed])
                 ult_pages.append(ult_page)  

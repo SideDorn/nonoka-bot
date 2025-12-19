@@ -1,4 +1,4 @@
-{"Anne Marie Yuu":
+{"Ann Marie Yuu":
         [
         {
             "name": "Combat Low",
@@ -23,6 +23,51 @@
             "range": "30ft",
             "casting_time": "1 Reaction",
             "charges": 4
+        },
+        {
+            "name": "",
+            "level": 16,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        },
+        {
+            "name": "",
+            "level": 20,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        }
+    
+
+        ],
+"Lunatique Pianoforte":
+[
+        {
+            "name": "Song of Strength - Absoulte Soul",
+            "level": 4,
+            "description": "Stronger version of Radiant Soul. Upon activation, gain +1 to all ability scores. Healing Hands turns into Healing Word of the highest unlocked spellslot. Gain 3 Bardic Inspiration dice. Lasts for 1 minute.",
+            "range": "Self",
+            "casting_time": "1 Bonus Action",
+            "charges": 1
+        },
+        {
+            "name": "Song of Inspiration - Asterlore",
+            "level": 8,
+            "description": "In combat, Luna always has Bardic Inspiration available. Once granted to an ally, their Crit threshold is lowered by the amount of uses they have remaining.",
+            "range": "30ft",
+            "casting_time": "Passive",
+            "charges": "Passive"         
+        },
+        {
+            "name": "Song of Resilience - Choir Jail",
+            "level": 12,
+            "description": "Shackle a creature for 1 turn. While active, Luna cannot move and take or deal damage. When Luna is knocked, she can set her HP to 1 and activate the ability on the creature that last dealt damage to her.",
+            "range": "30ft",
+            "casting_time": "1 Bonus Action/Instant",
+            "charges": 1
         },
         {
             "name": "",
