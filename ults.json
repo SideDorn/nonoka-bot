@@ -276,4 +276,50 @@
 
         ],
 
+"Nonoka Insaengui":
+[
+        {
+            "name": "Some Random Flask I Found on the Ground for Magic Stuff",
+            "level": 4,
+            "description": "Nonoka gains a Flask that consists of two slots that fit in these Alchemical Tears.\nShe can change them only right before or right after short/long rest but the flask can only be taken twice per short rest.\nUpon consumption, Nonoka gains the benefit of both Alchemical Tears inside the flask for 1 minute.\n**Rose Quarts Crystaltear**\n(+2 to all scan rolls during combat)\n*Looks like I can see through things a bit more clearly, good to note...\n**Magic-shrouding Cracked Tear**\n(+1d6 dmg to all magic attacks, damage type depends on the spell)\n*no this only work once with magic missile. but yes all hits of scorching ray benefits from this.*\n*This is all for me!*\n**Opaline Hardtear**\n(+2 AC)\n*I thought that goblin attack would hurt but some of the damage was reduced... Could prove useful someday.\n**Oil-soaked Tear**\n(Covers creatures in oil within a 20ft. sphere, creatures affected becomes vulnerable to fire damage, dealing 1.5x)\n*What a weird effect, glad it avoids me, if I set any of these things on fire I'd be toast!*\n**Xihouzhen Brotherhood Tear**\n(Affects a single ally within 5ft. of you, at their next turn. This ally gains extra 1d6 damage [damage type is dependent on the weapon/spell,if the weapon/spell has separate damage types, the user can freely choose which] to all attacks and gains the benefit of the other Alchemical Tear in slot as long as they are within 30ft. of you)\n*ok what this looks like is you share a bottle with the said ally.*",
+            "range": "Self",
+            "casting_time": "",
+            "charges": 2
+        },
+        {
+            "name": "Scarlet Rot",
+            "level": 8,
+            "description": "- Range 120ft.\n- Charges [1/1] : Recovers on short rest.\nNonoka sends out a 20ft. radius cloud of decay for 1 minute, causing enemiesinside it to decompose.\nEnemies that enters the area for the first time or starts their turn inside, suffers from 2d6 necrotic damage.\nUpon taking damage from this for the first time, they must roll a CON save DC = Nonoka's Spell Saving Throw. On failure, their resistance to necrotic is brought down by 1.\nThe effects strengthen the more a creature suffers from this spell.\n\n**- 10 damage**\nEvery healing done by enemies is reduced by half.\n\n**- 25 damage**\nAC is reduced by 5\n\n**- 50 damage**\nIncrease damage by another 2d6. Necrotic resistance is brought down by 1.\n\nNonoka has the ability to move the cloud on their turn as a bonus action for 20ft.",
+            "range": "120ft",
+            "casting_time": "",
+            "charges": 1     
+        },
+        {
+            "name": "His Reassurance",
+            "level": 12,
+            "description": "A gift from her father, a reassurance for her to not worry as he will one day come back.\n- Charges [1/1]: Once per long rest\nNonoka is imbued with a healing aura affecting allies within 20ft. of her for 1 minute.\nEvery allies within the sphere gets healed by 3d6+CHA modifier. Afterwards, Nonoka can select up to 4 allies, healing them at the start of their turn as long as they're within the sphere.\nNonoka can change the selected allies affected by this spell.",
+            "range": "20ft",
+            "casting_time": "",
+            "charges": 1
+        },
+        {
+            "name": "",
+            "level": 16,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        },
+        {
+            "name": "",
+            "level": 20,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        }
+
+
+        ]
+
 }
