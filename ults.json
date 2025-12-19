@@ -1,5 +1,7 @@
-{"Ann Marie Yuu":
-        [
+{
+
+"Ann Marie Yuu":
+[
         {
             "name": "Combat Low",
             "level": 4,
@@ -43,6 +45,7 @@
     
 
         ],
+
 "Lunatique Pianoforte":
 [
         {
@@ -87,7 +90,7 @@
         }
     
 
-        ],
+        ],     
     
 "Chiara Aurelius":
 [
@@ -133,7 +136,190 @@
         }
     
 
-        ]
+        ],
 
+"Sienna Sleep":
+[
+        {
+            "name": "Down the Rabbit Hole",
+            "level": 4,
+            "description": "At the start of her turn, Sienna delves into a shadowy pool, becoming invulnerable and invisible to other creatures.\nWhile concealed, Sienna can only use movement, and she can climb on walls and ceilings.\nSienna can choose to emerge from the surface at any time at the start of her next turn.",
+            "range": "Self",
+            "casting_time": "1 Action",
+            "charges": 3
+        },
+        {
+            "name": "It's My Own Invention",
+            "level": 8,
+            "description": "Spawns either Aletheia or Iris as a shadow (or both at the same time) within 30 ft. \nAll shadows are completely identical and linked to Sienna's game statistics.\n*((Basically we all share HP and the same action economy)*\nIf Sienna becomes unconscious, the shadows all disappear. You can dismiss a shadow any time at will.",
+            "range": "Self",
+            "casting_time": "Instant",
+            "charges": 2         
+        },
+        {
+            "name": "Looking Glass Insects",
+            "level": 12,
+            "description": "Spawns an insect with 1 HP that is a copy of Sienna (can appear shapeshifted too).\nChoose a number of creatures that can see the insect. All creatures that can see the insect are completely oblivious to Sienna (and clones).\nThe affected creatures do not notice that their attention is shifted to the insect.\nThe insect only lasts for 1 minute. This can only be used once per short rest.",
+            "range": "Self",
+            "casting_time": "Instant",
+            "charges": 1
+        },
+        {
+            "name": "",
+            "level": 16,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        },
+        {
+            "name": "",
+            "level": 20,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        }
+
+
+        ],
+
+"Val Akeldama":
+[
+        {
+            "name": "The Sufferer and The Witness",
+            "level": 4,
+            "description": "Lingering fragments of Anas Void Prison circulate in Vals body, working similarly to adrenaline.\n- Exhaustion 1: Gain disadvantage on ability checks, but critical failure threshold of creatures making a save against him increases by 1.\n- Exhaustion 2: Speed is halved, but Val can hover up to a maximum of 5ft.\n- Exhaustion 3: Gain disadvantage on attack rolls and saving throws, but a single die decides the resulting damage of a spell. For example, Val rolls a d8 for Psionic Blast. If he rolls a 3, all five d8 dice are replaced with 3. If two different dice are rolled, for example Chaos Bolt's 2d8 and 1d6, these dice have to be rolled separately.\n- Exhaustion 4: Max HP is halved, but one successful death save revives him. Failed death saves do not reset.\n- Exhaustion 5: Speed is reduced to 0. All his spells become quickened spells.\n- Exhaustion 6: Val is healed to full HP, but his max HP is halved. This can only occur once.\n- Exhaustion 7: Deal 3000% of HP as damage to self. Deal 3000% of an enemy's HP as true damage to everything within a 10ft radius.",
+            "range": "Self",
+            "casting_time": "",
+            "charges": ""
+        },
+        {
+            "name": "Realign",
+            "level": 8,
+            "description": "As a bonus action, Val can force a wild magic roll with an extra die for 1 sorcery point.\nHe can also instead induce a wild magic roll to a target within 30ft. If the target is unwilling, roll a d6. The number it lands on is the save the target has to make.\nAdditional wild magic dice can be rolled by using more sorcery points. The cost of extra dice increases exponentially.",
+            "range": "Self",
+            "casting_time": "Bonus Action",
+            "charges": ""         
+        },
+        {
+            "name": "Divine Inner Tension",
+            "level": 12,
+            "description": "As a bonus action, Val can tap into his boundless and unstable pool of magic to attempt casting a spell he knows.\nUtilizing two sorcery points, roll 3d4. If the results are a bust, roll for Wild Magic.\nIf two numbers match, cast a spell (i.e. results are 3, 2, 2 — cast a 2nd level spell; results are 3, 3, 1 — cast a 3rd level spell).\nIf three numbers match, cast a stronger spell (i.e. 1, 1, 1 == 5th level spell; 4, 4, 4 == 8th level spell).\nSpells cast in this manner can be saved for later use, costing a bonus action. If the roll resulted in another spell, then the older spell can be kept or overwritten.",
+            "range": "",
+            "casting_time": "Bonus Action",
+            "charges": ""
+        },
+        {
+            "name": "",
+            "level": 16,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        },
+        {
+            "name": "",
+            "level": 20,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        }
+
+        
+        ],
+        
+"Asano Tenki":
+[
+        {
+            "name": "TENKICHI Oxygen",
+            "level": 4,
+            "description": "As a bonus action, Tenki ensnares a target within 60 feet (+10 to hit), dealing 3d6+3 bludgeoning damage on hit.\nOn a hit, she can choose to either drag the target to her, or propel herself towards the target.\n- Breathe In~!: Tenki attempts to pull the target into an unoccupied space 5 feet adjacent to her. The target must pass a STR check (DC 17) or be pulled into the adjacent space of Tenki's choice. Large or bigger creatures automatically pass this check.\n- Breathe Out~!: Tenki immediately blinks to an unoccupied space 5 feet adjacent to the target. This movement does not provoke opportunity attacks, and counts as movement towards an enemy for purposes of passives such as Rakish Audacity.\nTenki has 3 charges of this ability. She regains 1 charge on a short rest, and all charges on a long rest.\nAdditionally, she can use this ability out of combat to grapple onto surfaces and objects. Using this ability in this way does not expend any charges.",
+            "range": "60ft",
+            "casting_time": "Bonus Action",
+            "charges": 3
+        },
+        {
+            "name": "TENKICHI Echo",
+            "level": 8,
+            "description": "Tenki conjures a sound gun called Saint's Row, which she can tune to one of the three settings for a single attack (+10 to hit, save DC 17)\n- Freedom Dive: Tenki aims at the target and plays loud, disorienting music, dealing 2d8+DEX thunder damage. If it hits, the target must roll a CON save (DC 17). Upon failure, they have disadvantage on saves and attack rolls for 2 turns. Creatures that are deafened automatically fail this.\n- Glorious Crown: Tenki cranks up the gun's bass and sets it on the ground facing down. 15ft. sphere starting from self range, all creatures must roll CON save (DC 17). On a fail, they take 3d6 bludgeoning damage and are knocked prone. The affected radius becomes difficult terrain. Half damage on success.\n- Heavenly Blast: Tenki aims the gun above her and fires.  20ft. sphere radius starting from self range, all enemies must make a WIS save (DC 17). Enemies that fail get Frightened for 2 turns, and creatures have advantages on attack rolls against them. Do nothing on success. Creatures that are deafened automatically fail this.\nTenki has 2 charges per long rest of this ability.",
+            "range": "",
+            "casting_time": "Instant",
+            "charges": 2         
+        },
+        {
+            "name": "TENKICHI Prism",
+            "level": 12,
+            "description": "[This ability counts as Spell Concentration]. Tenki summons a clone within 30ft of her.\nThis clone has half of Tenki's total HP, and shares initiative and actions with her.\nThe clone is able to proc sneak attack the same way as Tenki does but only dealing half the damage dice (6d6, turned to 3d6).\nThis clone has the ability to self destruct (free action) [DEX save DC 17] dealing 3d10 thunder damage to everyone within 20ft.\nThe damage decreases by 1 die for every 2 turns the clone has lasted starting from the end of Tenki's next turn (minimum of 1d10).\n* Save DC calculation: 8+DEX modifier+Proficiency modifier*",
+            "range": "30ft",
+            "casting_time": "Instant",
+            "charges": 1
+        },
+        {
+            "name": "",
+            "level": 16,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        },
+        {
+            "name": "",
+            "level": 20,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        }
+
+
+        ],
+
+"Nonoka Insaengui":
+[
+        {
+            "name": "Some Random Flask I Found on the Ground for Magic Stuff",
+            "level": 4,
+            "description": "Nonoka gains a Flask that consists of two slots that fit in these Alchemical Tears.\nShe can change them only right before or right after short/long rest but the flask can only be taken twice per short rest.\nUpon consumption, Nonoka gains the benefit of both Alchemical Tears inside the flask for 1 minute.\n**Rose Quarts Crystaltear**\n(+2 to all scan rolls during combat)\n*Looks like I can see through things a bit more clearly, good to note...\n**Magic-shrouding Cracked Tear**\n(+1d6 dmg to all magic attacks, damage type depends on the spell)\n*no this only work once with magic missile. but yes all hits of scorching ray benefits from this.*\n*This is all for me!*\n**Opaline Hardtear**\n(+2 AC)\n*I thought that goblin attack would hurt but some of the damage was reduced... Could prove useful someday.\n**Oil-soaked Tear**\n(Covers creatures in oil within a 20ft. sphere, creatures affected becomes vulnerable to fire damage, dealing 1.5x)\n*What a weird effect, glad it avoids me, if I set any of these things on fire I'd be toast!*\n**Xihouzhen Brotherhood Tear**\n(Affects a single ally within 5ft. of you, at their next turn. This ally gains extra 1d6 damage [damage type is dependent on the weapon/spell,if the weapon/spell has separate damage types, the user can freely choose which] to all attacks and gains the benefit of the other Alchemical Tear in slot as long as they are within 30ft. of you)\n*ok what this looks like is you share a bottle with the said ally.*",
+            "range": "Self",
+            "casting_time": "",
+            "charges": 2
+        },
+        {
+            "name": "Scarlet Rot",
+            "level": 8,
+            "description": "- Range 120ft.\n- Charges [1/1] : Recovers on short rest.\nNonoka sends out a 20ft. radius cloud of decay for 1 minute, causing enemiesinside it to decompose.\nEnemies that enters the area for the first time or starts their turn inside, suffers from 2d6 necrotic damage.\nUpon taking damage from this for the first time, they must roll a CON save DC = Nonoka's Spell Saving Throw. On failure, their resistance to necrotic is brought down by 1.\nThe effects strengthen the more a creature suffers from this spell.\n\n**- 10 damage**\nEvery healing done by enemies is reduced by half.\n\n**- 25 damage**\nAC is reduced by 5\n\n**- 50 damage**\nIncrease damage by another 2d6. Necrotic resistance is brought down by 1.\n\nNonoka has the ability to move the cloud on their turn as a bonus action for 20ft.",
+            "range": "120ft",
+            "casting_time": "",
+            "charges": 1     
+        },
+        {
+            "name": "His Reassurance",
+            "level": 12,
+            "description": "A gift from her father, a reassurance for her to not worry as he will one day come back.\n- Charges [1/1]: Once per long rest\nNonoka is imbued with a healing aura affecting allies within 20ft. of her for 1 minute.\nEvery allies within the sphere gets healed by 3d6+CHA modifier. Afterwards, Nonoka can select up to 4 allies, healing them at the start of their turn as long as they're within the sphere.\nNonoka can change the selected allies affected by this spell.",
+            "range": "20ft",
+            "casting_time": "",
+            "charges": 1
+        },
+        {
+            "name": "",
+            "level": 16,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        },
+        {
+            "name": "",
+            "level": 20,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        }
+
+
+        ]
 
 }
