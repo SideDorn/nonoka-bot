@@ -178,6 +178,52 @@
             "charges": 3
         }
 
+
+        ],
+
+"Val Akeldama":
+[
+        {
+            "name": "The Sufferer and The Witness",
+            "level": 4,
+            "description": "Lingering fragments of Anas Void Prison circulate in Vals body, working similarly to adrenaline.\n- Exhaustion 1: Gain disadvantage on ability checks, but critical failure threshold of creatures making a save against him increases by 1.\n- Exhaustion 2: Speed is halved, but Val can hover up to a maximum of 5ft.\n- Exhaustion 3: Gain disadvantage on attack rolls and saving throws, but a single die decides the resulting damage of a spell. For example, Val rolls a d8 for Psionic Blast. If he rolls a 3, all five d8 dice are replaced with 3. If two different dice are rolled, for example Chaos Bolt's 2d8 and 1d6, these dice have to be rolled separately.\n- Exhaustion 4: Max HP is halved, but one successful death save revives him. Failed death saves do not reset.\n- Exhaustion 5: Speed is reduced to 0. All his spells become quickened spells.\n- Exhaustion 6: Val is healed to full HP, but his max HP is halved. This can only occur once.\n- Exhaustion 7: Deal 3000% of HP as damage to self. Deal 3000% of an enemy's HP as true damage to everything within a 10ft radius.",
+            "range": "Self",
+            "casting_time": "",
+            "charges": ""
+        },
+        {
+            "name": "Realign",
+            "level": 8,
+            "description": "As a bonus action, Val can force a wild magic roll with an extra die for 1 sorcery point.\nHe can also instead induce a wild magic roll to a target within 30ft. If the target is unwilling, roll a d6. The number it lands on is the save the target has to make.\nAdditional wild magic dice can be rolled by using more sorcery points. The cost of extra dice increases exponentially.",
+            "range": "Self",
+            "casting_time": "Bonus Action",
+            "charges": ""         
+        },
+        {
+            "name": "Divine Inner Tension",
+            "level": 12,
+            "description": "As a bonus action, Val can tap into his boundless and unstable pool of magic to attempt casting a spell he knows.\nUtilizing two sorcery points, roll 3d4. If the results are a bust, roll for Wild Magic.\nIf two numbers match, cast a spell (i.e. results are 3, 2, 2 — cast a 2nd level spell; results are 3, 3, 1 — cast a 3rd level spell).\nIf three numbers match, cast a stronger spell (i.e. 1, 1, 1 == 5th level spell; 4, 4, 4 == 8th level spell).\nSpells cast in this manner can be saved for later use, costing a bonus action. If the roll resulted in another spell, then the older spell can be kept or overwritten.",
+            "range": "",
+            "casting_time": "Bonus Action",
+            "charges": ""
+        },
+        {
+            "name": "",
+            "level": 16,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        },
+        {
+            "name": "",
+            "level": 20,
+            "description": "",
+            "range": "",
+            "casting_time": "",
+            "charges": 3
+        }
+
         
         ]
 
