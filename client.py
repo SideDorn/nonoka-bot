@@ -60,6 +60,8 @@ async def ults(ctx:commands.Context, *args):
             if element["name"] != "":
                 ult_embed = make_ult_embed(element)
                 ult_page = discord.ext.pages.Page(content = f"Ults for **{character_name}**", embeds = [ult_embed])
+                if character_name == "Nonoka Insaengui":
+                    ult_page.content = "My ults!"
                 ult_pages.append(ult_page)  
         # makes each page and adds the ult details
         ult_paginator = discord.ext.pages.Paginator(ult_pages)
